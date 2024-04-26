@@ -1,0 +1,372 @@
+.big {
+  text-align: center; 
+  position: absolute; 
+  top: 0; /* Align the header to the top */
+  left: 50%; /* Align the header to the horizontal center */
+  transform: translateX(-50%); /* Move the element back by half its width */
+  padding: 20px; 
+  font-size: 75px; 
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red, violet); 
+  -webkit-background-clip: text;
+  background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 8s linear infinite; 
+  background-size: 200% auto; 
+  white-space: nowrap;
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0 50%;
+  }
+  100% {
+    background-position: 200% 50%; 
+  }
+}
+
+.particles-container {
+  position: relative;
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:300");
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  height: 100vh;
+  background: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.b1 {
+  position: absolute; 
+  top: 25%; 
+  left: 10%;
+  height: 100px;
+  width: 400px;
+  border: none;
+  outline: none;
+  color: white;
+  background: #111;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  margin: 20px;
+  
+}
+.b1:before{
+  position: absolute;
+  content: '';
+  top: -2px;
+  left: -2px;
+  height: calc(100% + 4px);
+  width: calc(100% + 4px);
+  border-radius: 5px;
+  z-index: -1;
+  opacity: 0;
+  filter: blur(5px);
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  background-size: 400%;
+  transition: opacity .3s ease-in-out;
+  animation: animate 20s linear infinite;
+}
+.b1:hover:before{
+  opacity: 1;
+}
+.b1:hover:active{
+  background: none;
+}
+.b1:hover:active:before{
+  filter: blur(2px);
+}
+@keyframes animate {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:300");
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  height: 100vh;
+  background: black;
+  align-items: center;
+  justify-content: center;
+}
+
+.b2 {
+  position: absolute; 
+  top: 40%; 
+  left: 10%;
+  height: 100px;
+  width: 400px;
+  border: none;
+  outline: none;
+  color: white;
+  background: #111;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  margin: 20px;
+  
+}
+.b2:before{
+  position: absolute;
+  content: '';
+  top: -2px;
+  left: -2px;
+  height: calc(100% + 4px);
+  width: calc(100% + 4px);
+  border-radius: 5px;
+  z-index: -1;
+  opacity: 0;
+  filter: blur(5px);
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  background-size: 400%;
+  transition: opacity .3s ease-in-out;
+  animation: animate 20s linear infinite;
+}
+.b2:hover:before{
+  opacity: 1;
+}
+.b2:hover:active{
+  background: none;
+}
+.b2:hover:active:before{
+  filter: blur(2px);
+}
+@keyframes animate {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:300");
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  height: 100vh;
+  background: black;
+  align-items: center;
+  justify-content: center;
+}
+
+.b3 {
+  position: absolute; 
+  top: 55%; 
+  left: 10%;
+  height: 100px;
+  width: 400px;
+  border: none;
+  outline: none;
+  color: white;
+  background: #111;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  margin: 20px;
+  
+}
+.b3:before{
+  position: absolute;
+  content: '';
+  top: -2px;
+  left: -2px;
+  height: calc(100% + 4px);
+  width: calc(100% + 4px);
+  border-radius: 5px;
+  z-index: -1;
+  opacity: 0;
+  filter: blur(5px);
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  background-size: 400%;
+  transition: opacity .3s ease-in-out;
+  animation: animate 20s linear infinite;
+}
+.b3:hover:before{
+  opacity: 1;
+}
+.b3:hover:active{
+  background: none;
+}
+.b3:hover:active:before{
+  filter: blur(2px);
+}
+@keyframes animate {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:300");
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  height: 100vh;
+  background: black;
+  align-items: center;
+  justify-content: center;
+}
+
+.b4 {
+  position: absolute; 
+  top: 70%; 
+  left: 10%;
+  height: 100px;
+  width: 400px;
+  border: none;
+  outline: none;
+  color: white;
+  background: #111;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  margin: 20px;
+  
+}
+.b4:before{
+  position: absolute;
+  content: '';
+  top: -2px;
+  left: -2px;
+  height: calc(100% + 4px);
+  width: calc(100% + 4px);
+  border-radius: 5px;
+  z-index: -1;
+  opacity: 0;
+  filter: blur(5px);
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  background-size: 400%;
+  transition: opacity .3s ease-in-out;
+  animation: animate 20s linear infinite;
+}
+.b4:hover:before{
+  opacity: 1;
+}
+.b4:hover:active{
+  background: none;
+}
+.b4:hover:active:before{
+  filter: blur(2px);
+}
+@keyframes animate {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+.mood-window {
+  background: rgba(255, 255, 255, 0.192);
+  backdrop-filter: blur(1px);
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  margin: 10px;
+  height: 150px;
+  width: 600px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid rgba(43, 43, 43, 0.568);
+  position: absolute;
+  top: 27%;
+  right: 10%; /* Adjust this value as needed */
+  transform: translateY(-50%);
+}
+
+.moodc {
+  text-align: center; 
+  font-weight: bold;/* Align text to the left */
+  position: absolute; /* Position the header absolutely */
+  top: 10; /* Align the header to the top */
+  left: 100; /* Align the header to the left */
+  padding: 10px; /* Add padding to the header */
+  font-size: 65px; /* Adjust the font size as needed */
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red, violet); /* Added violet at the end to ensure smooth transition */
+  -webkit-background-clip: text;
+  background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 8s linear infinite; /* Reduced animation duration for faster movement */
+  background-size: 200% auto; /* Ensure the gradient covers the text */
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0 50%;
+  }
+  100% {
+    background-position: 200% 50%; /* Increased to 200% for a seamless loop */
+  }
+}
+
+
+
+.songs-predicted {
+  background: rgba(255, 255, 255, 0.192);
+  backdrop-filter: blur(1px);
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  margin: 10px;
+  height: 420px;
+  width: 600px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid rgba(43, 43, 43, 0.568);
+  position: absolute;
+  top: 65%;
+  right: 10%; /* Adjust this value as needed */
+  transform: translateY(-50%);
+}
+
+
+.songs-predicted ul {
+  margin: 0; /* Remove default margin */
+  padding: 10; /* Remove default padding */
+  list-style-type: none; /* Remove list-style-type */
+}
+
+.songs-predicted li {
+  margin-left: 20px; /* Adjust as needed */
+}
+
+.small {
+  text-align: left; /* Align text to the left */
+  position: absolute; /* Position the element absolutely */
+  top: 150px; /* Align the element below the previous element */
+  left: 95px; /* Align the element to the left with some padding */
+  font-size: 30px; /* Adjust the font size as needed */
+  font-family: 'Raleway', sans-serif; /* Use Raleway font */
+  color: white; /* Set text color */
+}
+
+
